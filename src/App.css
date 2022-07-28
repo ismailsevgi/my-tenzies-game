@@ -1,38 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  z-index: 0;
+  background-color: antiquewhite;
+
+}
+
+
+
+.App p {
+  margin: auto auto;
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: rgb(88, 88, 88);
+
+}
+
+.App button {
+  width: 20vw;
+  height: 10vh;
+  background-color: rgb(65, 54, 126);
+  color: aliceblue;
+  margin: 1rem auto;
+  font-size: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 3px;
+  text-shadow: 3px 3px black;
+  border-radius: 1rem;
+  border: none;
+}
+
+.container {
+  height: auto;
+  
+  border: 3px solid black;
+  
+  background-color: bisque;
+  padding: 1rem;
+}
+
+
+
+.navbar {
+  border: 1px solid black;
+  background-color: bisque;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: 1rem 5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.123);
+  font-style: italic;
+  
+  
 }
 
-.App-link {
-  color: #61dafb;
+.navbar h1 {
+  padding:  0 3rem;
+  font-size: 2.5rem;
+  background-color: bisque;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row {
+  height: auto;
+  background-color: bisque;
 }
+
+.box {
+  
+  border: 1px solid black;
+  box-shadow: 3px 4px rgb(73, 73, 73);
+  height: 20vh;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  border-radius: 15px;
+  cursor: pointer;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 2px 3px rgb(190, 190, 172);
+}
+
